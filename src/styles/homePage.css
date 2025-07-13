@@ -1,28 +1,23 @@
-/* home.css */
 .homepage {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #fff;
   color: #52284C;
-  /* Reset font sizes */
-  font-size: 16px; /* Base size */
+  font-size: 16px; 
 }
 
 main {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem; /* Reduced from 3rem */
+  gap: 1.5rem;
   padding: 1rem;
   max-width: 1200px;
   margin: 0 auto;
 }
-
-/* Scale down headings */
 h1 { font-size: 2rem; }
 h2 { font-size: 1.5rem; }
 h3 { font-size: 1.25rem; }
 p  { font-size: 1rem; }
 
-/* Adjust buttons/inputs */
 button, input {
   font-size: 1rem;
   padding: 0.5rem 1rem;
