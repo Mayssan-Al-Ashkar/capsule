@@ -25,31 +25,6 @@
   font-size: 1.8rem;
 }
 
-.time-filters {
-  display: flex;
-  gap: 0.8rem;
-}
-
-.time-filter {
-  padding: 0.5rem 1rem;
-  border: none;
-  background: none;
-  color: #666;
-  cursor: pointer;
-  font-size: 0.9rem;
-  border-radius: 20px;
-  transition: all 0.3s ease;
-}
-
-.time-filter.active {
-  background: #8A427F;
-  color: white;
-}
-
-.time-filter:hover:not(.active) {
-  background: #f0e6ef;
-}
-
 /* Capsules Grid */
 .capsules-grid {
   display: grid;
@@ -151,15 +126,5 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 1rem;
-  }
-  
-  .time-filters {
-    width: 100%;
-    justify-content: space-between;
-  }
-  
-  .time-filter {
-    flex: 1;
-    text-align: center;
   }
 }

@@ -33,13 +33,7 @@ const AllCapsules = () => {
       
       <main className="capsules-content">
         <div className="header-section">
-          <h1>1y Time Capsules</h1>
-          <div className="time-filters">
-            <button className="time-filter active">1y</button>
-            <button className="time-filter">3y</button>
-            <button className="time-filter">5y</button>
-            <button className="time-filter">All</button>
-          </div>
+          <h1>My Time Capsules</h1>
         </div>
         
         <div className="capsules-grid">
