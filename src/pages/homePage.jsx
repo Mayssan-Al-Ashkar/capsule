@@ -1,6 +1,6 @@
 import React from "react";
 import '../styles/homePage.css';
-// import Navbar from "../components/shared/navbar";
+import Navbar from "../components/shared/navbar";
 import HeroSection from "../components/landing/heroSection";
 import FeaturesOverview from "../components/landing/featuresOverview";
 import LandingCapsulePreview from "../components/landing/capsulePreview";
@@ -9,7 +9,7 @@ import Footer from "../components/shared/footer";
 const HomePage = () => {
   return (
     <div className="homepage">
-      {/* <Navbar /> */}
+      <Navbar />
       <main>
         <HeroSection />
         <section id="features">
